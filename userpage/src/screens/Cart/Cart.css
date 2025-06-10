@@ -1,0 +1,224 @@
+.labor-cost,
+.address-input {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.labor-cost label,
+.address-input label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.labor-cost input,
+.address-input textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.place-order-btn {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.place-order-btn:hover {
+  background-color: #3b82f6;
+}
+.cart {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cart h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.03em;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.cart-item p {
+  flex: 1;
+  font-weight: 600;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.cart-item p:nth-child(3) {
+  font-weight: 700;
+  color: #0077ff;
+  min-width: 70px;
+  text-align: right;
+}
+
+.item-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.item-actions img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,0.1));
+  transition: transform 0.15s ease;
+}
+
+.item-actions img:hover {
+  transform: scale(1.15);
+}
+
+.item-actions span {
+  min-width: 24px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #222;
+}
+
+.labor-cost-form {
+  margin: 30px 0 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.labor-cost-form label {
+  font-weight: 600;
+}
+
+.labor-cost-form input {
+  width: 140px;
+  padding: 10px 12px;
+  border: 1.8px solid #0077ff;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #222;
+  transition: border-color 0.3s ease;
+}
+
+.labor-cost-form input:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 6px rgba(0, 119, 255, 0.4);
+}
+
+h3 {
+  text-align: right;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: #0077ff;
+  margin-top: 10px;
+  letter-spacing: 0.02em;
+}
+.summary {
+  margin-top: 30px;
+  border-top: 2px solid #0077ff;
+  padding-top: 20px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.total-bill {
+  font-size: 1.5rem;
+  color: #0077ff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-top: 15px;
+}
+
+.labor-cost-form {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #444;
+}
+
+.labor-cost-form label {
+  flex-shrink: 0;
+}
+
+.labor-cost-form input {
+  width: 140px;
+  padding: 10px 12px;
+  border: 1.8px solid #0077ff;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #222;
+  transition: border-color 0.3s ease;
+}
+
+.labor-cost-form input:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 6px rgba(0, 119, 255, 0.4);
+}
+.book-service-btn {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  padding: 14px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.book-service-btn:hover {
+  background-color: #0056b3;
+}

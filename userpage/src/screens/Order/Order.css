@@ -1,0 +1,78 @@
+.order {
+  max-width: 480px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #222;
+}
+
+.order h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.order p {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.bill-summary {
+  text-align: left;
+  border-top: 2px solid #0077ff;
+  padding-top: 20px;
+}
+
+.bill-summary h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #0077ff;
+}
+
+.bill-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #333;
+}
+
+.bill-row.total {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #0077ff;
+  margin-top: 15px;
+}
+.order.no-order {
+  text-align: center;
+  padding: 50px 20px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.home-link {
+  color: #1e3a8a;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.home-link:hover {
+  color: #3b82f6;
+}
+.delivery-address {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #1e3a8a;
+  border-radius: 6px;
+  background-color: #f0f7ff;
+  max-width: 500px;
+  font-size: 1rem;
+  white-space: pre-wrap; }
